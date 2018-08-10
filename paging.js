@@ -1,5 +1,5 @@
-    var perPage=1;
-    var numPages=1;
+    var perPage=7;
+    var numPages=5;
     var firstText ='First';
     var lastText ='Last';
     var prevText ='Prev';

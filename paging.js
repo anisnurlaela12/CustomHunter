@@ -1,4 +1,4 @@
-    var perPage=7;
+    var perPage=9;
     var numPages=5;
     var firstText ='First';
     var lastText ='Last';

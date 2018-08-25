@@ -265,7 +265,7 @@ table tr:nth-child(odd){background-color:#fff}table tr:nth-child(even){backgroun
 [class*='column-']{float:left;border:none}.column-1{width:8.33333%}.column-2{width:16.66666%}.column-3{width:25%}.column-4{width:33.33333%}.column-5{width:41.66666%}
 .half-width,.column-6{width:50%}.column-7{width:58.33333%}.column-8{width:66.66666%}.column-9{width:75%}.column-10{width:83.33333%}.column-11{width:91.66666%}.column-12,.fluid{width:100%}
 @media only screen and (max-width:601px){[class*='column-'].mobile{width:100%}}
-.topbar{display:block;position:fixed;top:0;left:0;right:0;z-index:200}.topbar .topbar-content{padding:15px}.nav{display:block;margin:0;padding:0;overflow:hidden}
+.topbar{display:block;position:fixed;top:0;left:0;right:0;z-index:200}.topbar-content{padding:15px}.nav{display:block;margin:0;padding:0;overflow:hidden}
 .nav.bar{width:100%}.nav.bar.fix,.nav.side.fix{position:fixed;z-index:100}.nav.bar.stick,.nav.side.stick{position:-webkit-sticky;position:sticky}
 .nav.side{width:320px;height:100%}.nav.side .nav-content{margin-top:60px}.nav.side .nav-content .nav-list li,.nav.side .nav-content .nav-list li a{display:block}
 .nav.side .nav-content .nav-list li a{text-align:left}.nav .nav-content{padding:10px}.nav .nav-content ul{display:block;list-style-type:none;margin:0;padding:0}

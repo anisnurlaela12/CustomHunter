@@ -65,7 +65,7 @@ ol.list-upper-roman{list-style-type:upper-roman}ol.list-lower-roman{list-style-t
 .tab button.active{background-color:#ccc}.tab-content{background-color:#fff;display:none;-webkit-animation:faded .5s;animation:faded .5s}.tab.side.left,.tab.side.right{width:30%;height:300px}
 .tab.side button{display:block;width:100%;float:none;text-align:left}.tab-content.side.left,.tab-content.side.right{width:70%;height:300px;overflow:auto;background-color:#ddd}
 .tab.side.left,.tab-content.side.left{float:left}.tab.side.right,.tab-content.side.right{float:right}
-.image{display:block;max-width:100%;height:auto;margin:auto}img:hover{opacity:.5;filter:alpha(opacity=50)}
+.image{display:block;max-width:100%;height:auto;margin:auto}img:hover{opacity:.5;filter:alpha(opacity=50);position:static}
 table{display:table;width:100%;border-collapse:collapse;border-spacing:0}table,table td{border:1px solid #ddd}table tr{border-bottom:1px solid #ddd}table tbody tr:nth-child(even){background-color:#f1f1f1}
 table tr:nth-child(odd){background-color:#fff}table tr:nth-child(even){background-color:#f1f1f1}table td,table th{padding:8px 8px;display:table-cell;vertical-align:center}table th,table td{padding-left:16px}
 .fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.sticky{position:-webkit-sticky;position:sticky}.block{display:block}.inline{display:inline}.inline-block{display:inline-block}

@@ -68,9 +68,9 @@ h1 a,h1 a:hover,h2 a,h2 a:hover,h3 a,h3 a:hover,h4 a,h4 a:hover,h5 a,h5 a:hover,
 .bold{font-weight:bold}.italic{font-style:italic}.underline{text-decoration:underline}.strikethrough{text-decoration:line-through red}.uppercase{text-transform:uppercase}.lowercase{text-transform:lowercase}.capitalize{text-transform:capitalize}
 .align-left{text-align:left}.align-center{text-align:center}.align-right{text-align:right}.align-justify{text-align:justify}.valign-top{vertical-align:top}.valign-middle{vertical-align:middle}
 .valign-bottom{vertical-align:bottom}.block{display:block}.inline-block{display:inline-block}.list{margin-top:10px;margin-bottom:10px}
-ul:after,ol:after,ul::after,ol::after,ul:before,ol:before,ul::before,ol::before{content:'';clear:both}.hmenu,.vmenu,.breadcrumb,.list-inline{margin:0;padding:0}
+ul:after,ol:after,ul::after,ol::after,ul:before,ol:before,ul::before,ol::before{content:'';clear:both}.hmenu,.vmenu,.breadcrumb,.list-inline{list-style-type:none;margin:0;padding:0}
 .hmenu li,.breadcrumb li,.list-inline li{float:left;text-align:center}.hmenu li{padding:10px 15px}.hmenu li a,.hmenu li a:hover,.vmenu li a,.vmenu li a:hover,.breadcrumb li a,.breadcrumb li a:hover{text-decoration:none}
-.hmenu li a,.vmenu li a,.breadcrumb li a,.list-inline li a{display:block;padding:10px 15px}.hmenu li,.vmenu li{vertical-align:middle}.hmenu li:hover,.vmenu li a:hover{background-color:#f1f1f1}
+.hmenu li a,.vmenu li a,.breadcrumb li a,.list-inline li a{display:inline-block;padding:10px 15px}.hmenu li,.vmenu li{vertical-align:middle}.hmenu li:hover,.vmenu li a:hover{background-color:#f1f1f1}
 .breadcrumb li{font-size:10px;padding:8px 0}.breadcrumb li:not(:last-child)::after{content:'/';margin-left:5px}.breadcrumb{border-bottom:1px dashed #ddd}.list li{padding:3px 0}
 .list-inline{list-style-type:none}.list.none{list-style-type:none}.list.upper-roman{list-style-type:upper-roman}.list.lower-roman{list-style-type:lower-roman}.list.upper-latin{list-style-type:upper-latin}
 .list.lower-latin{list-style-type:lower-latin}.list.upper-alpha{list-style-type:upper-alpha}.list.lower-alpha{list-style-type:lower-alpha}.list.disc{list-style-type:disc}
